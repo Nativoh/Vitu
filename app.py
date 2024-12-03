@@ -32,9 +32,7 @@ def is_suspicious_url(url):
 
     return "A URL parece segura."
 
-# Teste
-url = input("Digite uma URL para verificar: ")
-print(is_suspicious_url(url))
+
 
 import streamlit as st
 
